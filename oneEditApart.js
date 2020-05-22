@@ -14,8 +14,8 @@ function OneEditApart(word1, word2) {
   // must be less than 2 .length units apart
   
   if (word1.length !== word2.length){
-    var shorter = word1.length < word2.length ? word1: word2;
-    var longer = word1.length > word2.length ? word1 : word2;
+    let shorter = word1.length < word2.length ? word1: word2;
+    let longer = word1.length > word2.length ? word1 : word2;
   
     let count =0;
     for (let i =0, j=0; i < shorter.length;j++, i++){
